@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container {
+  position: relative;
+}
+.valentines {
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+  animation: up 4s linear infinite;
+}
+
+.div_btn {
+  position: absolute;
+  border-radius: 50%;
+  bottom: 95px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#btn{
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #b46aff;
+  width: 150px;
+  height: 80px;
+  transition: 500ms;
+  border: 0px;
+}
+
+#btn:hover{
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #9b39ff;
+  width: 170px;
+  height: 100px;
+  transition: 500ms;
+  border: 0px;
+}
+
+.envelope {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color:	#6f00df;
+}
+
+.envelope:before {
+  background-color: #8610fc;
+  content: "";
+  position: absolute;
+  width: 212px;
+  height: 212px;
+  transform: rotate(45deg);
+  top: -105px;
+  left: 44px;
+  border-radius: 30px 0 0 0;
+}
+
+.card {
+  position: absolute;
+  background-color: #eae2b7;
+  width: 270px;
+  height: 170px;
+  top: 5px;
+  left: 15px;
+  box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.4);
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  border: 3px solid #490043;
+  border-style: dotted;
+  width: 240px;
+  height: 140px;
+  left: 12px;
+  top: 12px;
+}
+
+.text {
+  position: absolute;
+  font-family:  'Brush Script MT', cursive;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  top: 19px;
+  left: 75px;
+  color: #490043;
+}
+
+.heart {
+  background-color: #d62828;
+  display: inline-block;
+  height: 30px;
+  margin: 0 10px;
+  position: relative;
+  top: 110px;
+  left: 105px;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: #d62828;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.heart:before {
+  top: -15px;
+  left: 0;
+}
+
+.heart:after {
+  left: 15px;
+  top: 0;
+}
+.front {
+  position: absolute;
+  border-right: 180px solid #9b39ff;
+  border-top: 95px solid transparent;
+  border-bottom: 100px solid transparent;
+  left: 120px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  z-index: 10;
+}
+
+.front:before {
+  position: absolute;
+  content: "";
+  border-left: 300px solid #b46aff;
+  border-top: 195px solid transparent;
+  left: -120px;
+  top: -95px;
+  width: 0;
+  height: 0;
+}
+
+.shadow {
+  position: absolute;
+  width: 330px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  bottom: 250px;
+  animation: scale 4s linear infinite;
+  z-index: -1;
+}
+
+@keyframes up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0.85);
+  }
+}
