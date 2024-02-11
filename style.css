@@ -157,16 +157,6 @@ body {
   height: 0;
 }
 
-.shadow {
-  position: absolute;
-  width: 330px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.3);
-  bottom: 250px;
-  animation: scale 4s linear infinite;
-  z-index: -1;
-}
 
 @keyframes up {
   0%,
@@ -174,7 +164,7 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-30px);
+    transform: translateY(-15px);
   }
 }
 
