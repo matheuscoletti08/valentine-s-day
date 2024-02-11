@@ -37,7 +37,7 @@ body {
   font-size: 16px;
   background-color: #b46aff;
   width: 150px;
-  height: 80px;
+  height: 60px;
   transition: 500ms;
   border: 0px;
 }
@@ -47,7 +47,7 @@ body {
   font-weight: bold;
   background-color: #9b39ff;
   width: 170px;
-  height: 100px;
+  height: 80px;
   transition: 500ms;
   border: 0px;
 }

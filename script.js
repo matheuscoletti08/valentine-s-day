@@ -4,10 +4,6 @@ var btn = document.getElementById("btn");
       btn.style.opacity = "1";
   }, 2000);
 
-  btn.addEventListener("click", function () {
-    window.location.href = "choice/choice.html";
-});
-
 $(document).ready(function () {
   $(".container")
     .mouseenter(function () {
