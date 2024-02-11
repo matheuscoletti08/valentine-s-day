@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+#questionario {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #questionario h2 {
+    margin-bottom: 10px;
+  }
+  
+  #questionario-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #questionario-form label {
+    margin-bottom: 5px;
+  }
+  
+  #questionario-form input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #questionario-form button {
+    margin: 20px 0px 0px 0px;
+    padding: 10px 20px;
+    background-color: #9b39ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #questionario-form button:hover {
+    background-color: #6f00df;
+  }
+  
+  #resultado {
+    margin-top: 10px;
+    font-weight: bold;
+  }
