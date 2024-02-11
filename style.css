@@ -43,11 +43,7 @@ body {
 }
 
 #btn:hover{
-  font-size: 17px;
-  font-weight: bold;
   background-color: #9b39ff;
-  width: 170px;
-  height: 80px;
   transition: 500ms;
   border: 0px;
 }
