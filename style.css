@@ -21,13 +21,13 @@ body {
   position: relative;
   top: 50px;
   cursor: pointer;
-  animation: up 4s linear infinite;
+  margin: 0px 20px 0px 20px;
 }
 
 .div_btn {
   position: absolute;
   border-radius: 50%;
-  bottom: 95px;
+  bottom: 75px;
   cursor: pointer;
   z-index: 2;
 }
