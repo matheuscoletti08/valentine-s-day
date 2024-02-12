@@ -1,7 +1,0 @@
-document.getElementById("button1").addEventListener("click", function() {
-    window.location.href = "carousel.html";
-});
-
-document.getElementById("button2").addEventListener("click", function() {
-    window.location.href = "quiz.html";
-});

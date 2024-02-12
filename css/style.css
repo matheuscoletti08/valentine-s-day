@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: white;
+}
+
+.valentines {
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    margin: 0px 20px 0px 20px;
+}
+
+.div_btn {
+    position: absolute;
+    border-radius: 50%;
+    bottom: 75px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#btn{
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #b46aff;
+    width: 150px;
+    height: 60px;
+    transition: 500ms;
+    border: 0px;
+}
+
+#btn:hover{
+    background-color: #9b39ff;
+    transition: 500ms;
+    border: 0px;
+}
+
+.envelope {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #6f00df;
+}
+
+.envelope:before {
+    background-color: #8610fc;
+    content: "";
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    transform: rotate(45deg);
+    top: -105px;
+    left: 44px;
+    border-radius: 30px 0 0 0;
+}
+
+.card {
+    position: absolute;
+    background-color: #eae2b7;
+    width: 270px;
+    height: 170px;
+    top: 5px;
+    left: 15px;
+    box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.4);
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    border: 3px solid #490043;
+    border-style: dotted;
+    width: 240px;
+    height: 140px;
+    left: 12px;
+    top: 12px;
+}
+
+.text {
+    position: absolute;
+    font-family:  'Brush Script MT', cursive;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    top: 19px;
+    left: 75px;
+    color: #490043;
+}
+
+.heart {
+    background-color: #d62828;
+    display: inline-block;
+    height: 30px;
+    margin: 0 10px;
+    position: relative;
+    top: 110px;
+    left: 105px;
+    transform: rotate(-45deg);
+    width: 30px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: #d62828;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+}
+
+.heart:before {
+    top: -15px;
+    left: 0;
+}
+
+.heart:after {
+    left: 15px;
+    top: 0;
+}
+
+.front {
+    position: absolute;
+    border-right: 180px solid #9b39ff;
+    border-top: 95px solid transparent;
+    border-bottom: 100px solid transparent;
+    left: 120px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    z-index: 10;
+}
+
+.front:before {
+    position: absolute;
+    content: "";
+    border-left: 300px solid #b46aff;
+    border-top: 195px solid transparent;
+    left: -120px;
+    top: -95px;
+    width: 0;
+    height: 0;
+}
+
+/* Segundo bloco */
+
+body, html {
+    color: white;
+    background-color: #000;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 0 10px;
+    text-align: center;
+    background-color: #000;
+    border: 0px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.button img {
+    width: 150px; /* ajuste conforme necessário */
+    height: 150px; /* ajuste conforme necessário */
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.button p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Terceiro bloco */
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+#questionario {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #questionario h2 {
+    margin-bottom: 10px;
+  }
+  
+  #questionario-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #questionario-form label {
+    margin-bottom: 5px;
+  }
+  
+  #questionario-form input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #questionario-form button {
+    margin: 20px 0px 0px 0px;
+    padding: 10px 20px;
+    background-color: #9b39ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #questionario-form button:hover {
+    background-color: #6f00df;
+  }
+  
+  #resultado {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+body{
+  color: white;
+  background-color: #000;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  h2{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 1px;
+    background-color: #717171;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #ffffff;
+  }
