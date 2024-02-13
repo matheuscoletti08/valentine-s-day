@@ -8,24 +8,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   background-color: #000000;
-  overflow-x: hidden;
-  overflow-y: hidden;
   color: white;
 }
 
 .valentines {
   position: relative;
-  top: 50px;
-  cursor: pointer;
-  margin: 0px 20px 0px 20px;
+  top: 268px;
 }
-
 .div_btn {
   position: absolute;
   border-radius: 50%;
-  bottom: 75px;
+  bottom: 170px;
   cursor: pointer;
   z-index: 2;
 }
@@ -179,8 +174,8 @@ h1 {
 }
 
 .button img {
-  width: 150px; /* ajuste conforme necessário */
-  height: 150px; /* ajuste conforme necessário */
+  width: 150px; 
+  height: 150px; 
   display: block;
   margin: 0 auto;
   border-radius: 5%;
@@ -238,15 +233,20 @@ body {
   background-color: #000;
 }
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 768px ;
   position: relative;
   margin: auto;
 }
 
-.mySlides {
+.mySlides{
   display: none;
+  width: auto;
 }
 
+/* #photo{
+  display: none;
+  width: 768px;
+} */
 h2 {
   font-size: 36px;
   color: white;
