@@ -38,8 +38,8 @@ function verificarRespostas() {
   if (
     (resposta1 == "29/01" || resposta1 == "29 de janeiro") &&
     (resposta2 == "you&me" || resposta2 == "you & me") &&
-    (resposta3 == "tucuruvi" || resposta3 == "Tucuruvi") &&
-    (resposta4 == "08/09/23" || resposta4 == "08 de setembro de 2023") &&
+    (resposta3 == "tucuruvi" || resposta3 == "Tucuruvi" || resposta3 == "Shopping")|| resposta3 == "shopping" &&
+    (resposta4 == "08/09/23" || resposta4 == "08/09" || resposta4 == "08 de setembro de 2023") &&
     (resposta5 == "nana" ||
       resposta5 == "Nana" ||
       resposta5 == "Nanah" ||
